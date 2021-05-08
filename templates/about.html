@@ -1,0 +1,119 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<style xmlns="http://www.w3.org/1999/html">
+
+    html body {
+      background-image: url('../static/images/crop8-img.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      position: relative;
+      background-position: 50% 0;
+      background-color: lightgreen;
+      font-size:20px;
+}
+
+
+</style>
+
+
+
+</br>
+<h1 align="center"><strong>Here are some of the information about Agri-Tech</strong></h1>
+</br>
+<div class="container" style="">
+	<div class="img-fluid">
+		<img src="{{ url_for('static', filename = 'images/agri-tech-logo.png') }}" height="300" width="300" align="right" class="img-fluid" alt=""/>
+	</div>
+	<h2><b>This Application is consisting of three important features</b></h2>
+
+	<ol>
+		<li><b>Crop Recommendation</b></li>
+		<li><b>Fertilizer Recommendation</b></li>
+		<li><b>Disease Prediction</b></li>
+	</ol>
+    <hr>
+	<h3><b>Crop Recommendation:</b></h3>
+	<p style="font-size:;"><strong>In the crop recommendation application, the user can provide the soil data from
+    their side and the application will predict and recommend which crop should the
+    user grow.</strong></p>
+	<hr>
+
+	<h3><b>Fertilizer Recommendation:</b></h3>
+	<p><strong>For the fertilizer recommendation application, the user can input the soil data
+    and the type of crop they wanted to grow, and the application will predict what the
+    soil lacks or has excess of and will recommend the improvements.</strong></p>
+	<hr>
+
+	<h3><b>Disease Prediction:</b></h3>
+	<p><strong>For the plant disease prediction application, the user can input an image of a
+    diseased plant leaf, and the application will predict what disease it is and will
+    also give a little background about the disease and suggestions to cure it.</strong></p>
+	</br>
+	<h4><b>NOTE: This application can identify only the following diseases:</b></h4>
+	<p><strong></strong></p>
+	<img src="{{ url_for('static', filename = 'images/disease.jpg') }}" height="400" width="400" align="right" class="img-fluid" alt=""/>
+	<ul>
+		<li><b>Apple Scab</b></li>
+		<li><b>Black Rot</b></li>
+		<li><b>Cedar Apple Rust</b></li>
+		<li><b>Powdery Mildew</b></li>
+		<li><b>Grey Leaf Spot</b></li>
+		<li><b>Common Rust</b></li>
+		<li><b>Northern Leaf Blight</b></li>
+		<li><b>Black Rot</b></li>
+		<li><b>Black Measles</b></li>
+		<li><b>Leaf Blight</b></li>
+		<li><b>Citrus Greening</b></li>
+		<li><b>Bacterial Spot</b></li>
+		<li><b>Early Blight</b></li>
+		<li><b>Late Blight</b></li>
+		<li><b>Leaf Scorch</b></li>
+		<li><b>Leaf Mold</b></li>
+		<li><b>Leaf Spot</b></li>
+		<li><b>Two-spotted spider mite</b></li>
+		<li><b>Target Spot</b></li>
+		<li><b>Yellow Leaf Curl Virus</b></li>
+		<li><b>Mosaic Virus</b></li>
+	</ul>
+</div>
+
+<div class="container">
+	<img src="{{ url_for('static', filename = 'images/npk.jpg') }}" height="400" width="400" align="right" class="img-fluid" alt=""/>
+
+</div>
+</br>
+<h1 align="center"><strong>Here are some of the important information about NPK value</strong></h1>
+<div class="container">
+	<br>
+	<h3><b>What are N, P, K and why are they so important for plants and crops?</b></h3>
+	<p><strong>The nutrients that are required by crops in the largest amounts are N, P and K. For that reason, they are often considered as the most important nutrients.</strong></p>
+	<hr>
+
+	<h3><b>What is the role of these nutrients in plant growth?</b></h3>
+     <p><strong>The main functions of N and P are that they are constituents of proteins and nucleic acids, which are important components of plant tissue.
+        K is the only nutrient that is not a constituent of organic plant compounds, but is mainly of importance in the regulation of processes in the plant, such as osmosis and enzyme activities.
+		 K is generally playing an important role for the quality of harvested plant products.</strong></p>
+	<hr>
+
+	<h3><b>Why is it important for farmers to know the NPK content in their soil?</b></h3>
+    <p><strong>For the optimal growth of crops, sufficient amounts of nutrients should be available in the root zone of the crops.
+        Those nutrients can be partly supplied by the soil and should be partly added with organic manures and fertilizers.
+        Soils will contain different amounts of available nutrients, depending of the parent material (e.g. sand, clay, peat), and differences in the management history such as preceding crops, management of crop residues and use of manure and fertilizers in the past.
+        Also differences in climatic conditions may alter the available nutrients.
+		For that reason, it is of importance for farmers to know the NPK content of their soil,
+		so that they know how much N, P and/or K they should add with organic or mineral fertilizers, to optimize crop growth, production and yield.</strong></p>
+	<hr>
+	<h3><b>What are the risks of too little or too much N, P or K in the soil?</b></h3>
+       <p><strong>The availability of N, P and K in soil should be sufficient, but not too high.
+		   Too low availabilities will lead to hampered growth and low yields, while too high availabilities of one or more nutrients may lead to disturbed plant growth and adverse effects for yield and/or quality of harvested products.
+		   Moreover, the N, P and K availability should be balanced, so the availability of the other nutrients should be taken into account while the availability of the considered nutrient is adjusted.</strong></p>
+    <br>
+</div>
+
+
+
+
+{% endblock %}
