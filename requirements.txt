@@ -7,6 +7,6 @@ numpy==1.20.2
 pandas==1.2.4
 Pillow==8.2.0
 requests==2.25.1
-torch==1.8.1
-torchvision==0.9.1
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.2.0+cpu
 urllib3==1.26.4
