@@ -7,4 +7,4 @@ torchvision
 requests
 Pillow
 gunicorn == 20.0.4
-itsdangerou s== 1.1.0
+itsdangerous== 1.1.0
