@@ -7,4 +7,3 @@ https://download.pytorch.org/whl/cpu/torchvision-0.8.1%2Bcpu-cp36-cp36m-linux_x8
 requests
 Pillow
 gunicorn == 20.0.4
-pickle
