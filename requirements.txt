@@ -7,6 +7,6 @@ numpy==1.20.2
 pandas==1.2.4
 Pillow==8.2.0
 requests==2.25.1
---find-links https://download.pytorch.org/whl/torch_stable.html
-torch==1.2.0+cpu
+https://download.pytorch.org/whl/cpu/torch-1.7.0%2Bcpu-cp36-cp36m-linux_x86_64.whl
+https://download.pytorch.org/whl/cpu/torchvision-0.8.1%2Bcpu-cp36-cp36m-linux_x86_64.whl
 urllib3==1.26.4
