@@ -34,50 +34,117 @@
 		<li><b>Fertilizer Recommendation</b></li>
 		<li><b>Disease Prediction</b></li>
 	</ol>
-    <hr>
+        <hr>
+	
 	<h3><b>Crop Recommendation:</b></h3>
 	<p style="font-size:;"><strong>In the crop recommendation application, the user can provide the soil data from
-    their side and the application will predict and recommend which crop should the
-    user grow.</strong></p>
+        their side and the application will predict and recommend which crop should the
+        user grow.</strong></p>
 	<hr>
 
 	<h3><b>Fertilizer Recommendation:</b></h3>
 	<p><strong>For the fertilizer recommendation application, the user can input the soil data
-    and the type of crop they wanted to grow, and the application will predict what the
-    soil lacks or has excess of and will recommend the improvements.</strong></p>
+        and the type of crop they wanted to grow, and the application will predict what the
+        soil lacks or has excess of and will recommend the improvements.</strong></p>
 	<hr>
 
 	<h3><b>Disease Prediction:</b></h3>
 	<p><strong>For the plant disease prediction application, the user can input an image of a
-    diseased plant leaf, and the application will predict what disease it is and will
-    also give a little background about the disease and suggestions to cure it.</strong></p>
-	</br>
-	<h4><b>NOTE: This application can identify only the following diseases:</b></h4>
-	<p><strong></strong></p>
-	<img src="{{ url_for('static', filename = 'images/disease.JPG') }}" height="400" width="400" align="right" class="img-fluid" alt=""/>
-	<ul>
-		<li><b>Apple Scab</b></li>
-		<li><b>Black Rot</b></li>
-		<li><b>Cedar Apple Rust</b></li>
-		<li><b>Powdery Mildew</b></li>
-		<li><b>Grey Leaf Spot</b></li>
-		<li><b>Common Rust</b></li>
-		<li><b>Northern Leaf Blight</b></li>
-		<li><b>Black Rot</b></li>
-		<li><b>Black Measles</b></li>
-		<li><b>Leaf Blight</b></li>
-		<li><b>Citrus Greening</b></li>
-		<li><b>Bacterial Spot</b></li>
-		<li><b>Early Blight</b></li>
-		<li><b>Late Blight</b></li>
-		<li><b>Leaf Scorch</b></li>
-		<li><b>Leaf Mold</b></li>
-		<li><b>Leaf Spot</b></li>
-		<li><b>Two-spotted spider mite</b></li>
-		<li><b>Target Spot</b></li>
-		<li><b>Yellow Leaf Curl Virus</b></li>
-		<li><b>Mosaic Virus</b></li>
-	</ul>
+        diseased plant leaf, and the application will predict what disease it is and will
+        also give a little background about the disease and suggestions to cure it.</strong></p>
+	<hr>
+	
+	<h3><b>NOTE: This application can identify only the following diseases:</b></h3>
+	<table style="width:100%;">
+	  <tr>
+		<th style="color:#35373b">Disease Names</th>
+		<th style="color:#35373b">Origin</th>
+	  </tr>
+	  <tr>
+		<td><b>Apple Scab</b></td>
+		<td><b>Apple</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Black Rot</b></td>
+		<td><b>Grape</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Cedar Apple Rust</b></td>
+		<td><b>Apple</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Powdery Mildew</b></td>
+		<td><b>Cherry,Squash</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Grey Leaf Spot</b></td>
+		<td><b>Corn_(maize)</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Common Rust</b></td>
+		<td><b>Corn_(maize)</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Northern Leaf Blight</b></td>
+		<td><b>Corn_(maize)</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Black Rot</b></td>
+		<td><b>Grape</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Black Measles</b></td>
+		<td><b>Grape</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Leaf Blight</b></td>
+		<td><b>Corn_(maize),Grape</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Citrus Greening</b></td>
+		<td><b>Orange</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Bacterial Spot</b></td>
+		<td><b>Tomato,Peach,Pepper</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Early Blight</b></td>
+		<td><b>Potato</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Late Blight</b></td>
+		<td><b>Tomato</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Leaf Scorch</b></td>
+		<td><b>Strawberry</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Leaf Mold</b></td>
+		<td><b>Strawberry</b></td>
+	  </tr>
+	  <tr>
+		<td><b><b>Leaf Spot</b></b></td>
+		<td><b>Tomato, Corn_(maize)</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Two-spotted spider mite</b></td>
+		<td><b>Tomato</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Target Spot</b></td>
+		<td><b>Tomato</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Yellow Leaf Curl Virus</b></td>
+		<td><b>Tomato</b></td>
+	  </tr>
+	  <tr>
+		<td><b>Mosaic Virus</b></td>
+		<td><b>Tomato</b></td>
+	  </tr>
+	</table>
 </div>
 
 <div class="container">
